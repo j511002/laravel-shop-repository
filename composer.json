@@ -1,17 +1,20 @@
 {
-  "name": "jiangzhiheng/repositories",
-  "description": "Laravel Repositories",
+  "name": "simple-shop/repositories",
+  "description": "laravel商品系统",
   "license": "MIT",
-  "homepage": "",
   "keywords": ["laravel", "repository", "repositories", "eloquent", "database"],
   "authors": [
+    {
+      "name": "Wangzd",
+      "email": "wangzhoudong@foxmail.com"
+    },
     {
       "name": "jiangzhiheng",
       "email": "j5110021@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.5.9",
+    "php": ">=7.0.0",
     "illuminate/support": "^5.2",
     "illuminate/database": "^5.2",
     "illuminate/filesystem": "^5.2",
