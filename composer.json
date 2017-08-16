@@ -1,17 +1,13 @@
 {
-  "name": "bosnadev/repositories",
+  "name": "jiangzhiheng/repositories",
   "description": "Laravel Repositories",
   "license": "MIT",
-  "homepage": "https://bosnadev.com",
+  "homepage": "",
   "keywords": ["laravel", "repository", "repositories", "eloquent", "database"],
   "authors": [
     {
-      "name": "Mirza Pasic",
-      "email": "mirza@bosnadev.com"
-    },
-    {
-      "name": "Maarten Paauw",
-      "email": "maartenpaauw@gmail.com"
+      "name": "jiangzhiheng",
+      "email": "j5110021@gmail.com"
     }
   ],
   "require": {
@@ -26,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Bosnadev\\": "src/Bosnadev/"
+      "SimpleShop\\Repositories": "src/SimpleShop/Repositories"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bosnadev\\Repositories\\Tests\\": "tests/"
+      "SimpleShop\\Repositories\\Tests\\": "tests/"
     }
   },
   "extra": {

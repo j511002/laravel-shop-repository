@@ -1,6 +1,6 @@
-<?php namespace Bosnadev\Repositories\Criteria;
+<?php namespace SimpleShop\Repositories\Criteria;
 
-use Bosnadev\Repositories\Contracts\RepositoryInterface as Repository;
+use SimpleShop\Repositories\Contracts\RepositoryInterface as Repository;
 
 abstract class Criteria {
 

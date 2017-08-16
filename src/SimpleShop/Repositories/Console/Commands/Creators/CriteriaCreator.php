@@ -1,6 +1,6 @@
 <?php
 
-namespace Bosnadev\Repositories\Console\Commands\Creators;
+namespace SimpleShop\Repositories\Console\Commands\Creators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Config;
@@ -9,7 +9,7 @@ use Doctrine\Common\Inflector\Inflector;
 /**
  * Class CriteriaCreator
  *
- * @package Bosnadev\Repositories\Console\Commands\Creators
+ * @package SimpleShop\Repositories\Console\Commands\Creators
  */
 class CriteriaCreator {
 

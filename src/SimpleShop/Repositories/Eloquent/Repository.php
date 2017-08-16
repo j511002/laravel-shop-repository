@@ -1,18 +1,18 @@
 <?php
 
-namespace Bosnadev\Repositories\Eloquent;
+namespace SimpleShop\Repositories\Eloquent;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Container\Container as App;
-use Bosnadev\Repositories\Contracts\RepositoryInterface;
-use Bosnadev\Repositories\Exceptions\RepositoryException;
-use Bosnadev\Repositories\Contracts\CriteriaInterface;
-use Bosnadev\Repositories\Criteria\Criteria;
+use SimpleShop\Repositories\Contracts\RepositoryInterface;
+use SimpleShop\Repositories\Exceptions\RepositoryException;
+use SimpleShop\Repositories\Contracts\CriteriaInterface;
+use SimpleShop\Repositories\Criteria\Criteria;
 
 /**
  * Class Repository
- * @package Bosnadev\Repositories\Eloquent
+ * @package SimpleShop\Repositories\Eloquent
  */
 abstract class Repository implements RepositoryInterface, CriteriaInterface
 {
@@ -48,7 +48,7 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
     /**
      * @param App $app
      * @param Collection $collection
-     * @throws \Bosnadev\Repositories\Exceptions\RepositoryException
+     * @throws \SimpleShop\Repositories\Exceptions\RepositoryException
      */
     public function __construct(App $app, Collection $collection)
     {

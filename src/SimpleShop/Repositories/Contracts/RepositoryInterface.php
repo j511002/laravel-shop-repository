@@ -1,8 +1,8 @@
-<?php namespace Bosnadev\Repositories\Contracts;
+<?php namespace SimpleShop\Repositories\Contracts;
 
 /**
  * Interface RepositoryInterface
- * @package Bosnadev\Repositories\Contracts
+ * @package SimpleShop\Repositories\Contracts
  */
 interface RepositoryInterface {
 

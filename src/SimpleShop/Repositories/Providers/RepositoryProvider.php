@@ -1,19 +1,19 @@
 <?php
 
-namespace Bosnadev\Repositories\Providers;
+namespace SimpleShop\Repositories\Providers;
 
 use Illuminate\Support\Composer;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use Bosnadev\Repositories\Console\Commands\MakeCriteriaCommand;
-use Bosnadev\Repositories\Console\Commands\MakeRepositoryCommand;
-use Bosnadev\Repositories\Console\Commands\Creators\CriteriaCreator;
-use Bosnadev\Repositories\Console\Commands\Creators\RepositoryCreator;
+use SimpleShop\Repositories\Console\Commands\MakeCriteriaCommand;
+use SimpleShop\Repositories\Console\Commands\MakeRepositoryCommand;
+use SimpleShop\Repositories\Console\Commands\Creators\CriteriaCreator;
+use SimpleShop\Repositories\Console\Commands\Creators\RepositoryCreator;
 
 /**
  * Class RepositoryProvider
  *
- * @package Bosnadev\Repositories\Providers
+ * @package SimpleShop\Repositories\Providers
  */
 class RepositoryProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Bosnadev\Repositories\Contracts;
+namespace SimpleShop\Repositories\Contracts;
 
-use Bosnadev\Repositories\Criteria\Criteria;
+use SimpleShop\Repositories\Criteria\Criteria;
 
 /**
  * Interface CriteriaInterface
- * @package Bosnadev\Repositories\Contracts
+ * @package SimpleShop\Repositories\Contracts
  */
 interface CriteriaInterface {
 
