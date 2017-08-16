@@ -101,14 +101,16 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
     }
 
     /**
-     * @param int $perPage
+     * @param int   $perPage
      * @param array $columns
+     * @param int   $page
+     *
      * @return mixed
      */
-    public function paginate($perPage = 25, $columns = array('*'))
+    public function paginate($perPage = 25, $columns = array('*'), $page = 1)
     {
         $this->applyCriteria();
-        return $this->model->paginate($perPage, $columns);
+        return $this->model->paginate($perPage, $columns, 'page', $page);
     }
 
     /**

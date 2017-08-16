@@ -13,11 +13,13 @@ interface RepositoryInterface {
     public function all($columns = array('*'));
 
     /**
-     * @param $perPage
+     * @param int   $perPage
      * @param array $columns
+     * @param int   $page
+     *
      * @return mixed
      */
-    public function paginate($perPage = 1, $columns = array('*'));
+    public function paginate($perPage = 1, $columns = array('*'), $page = 1);
 
     /**
      * @param array $data
