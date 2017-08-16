@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SimpleShop\\Repositories": "src/SimpleShop/Repositories"
+      "SimpleShop": "src/SimpleShop"
     }
   },
   "autoload-dev": {
