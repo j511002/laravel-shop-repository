@@ -165,8 +165,12 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
      * @param $id
      * @return mixed
      */
-    public function delete($id)
+    public function delete($id = null)
     {
+        if (is_null($id)) {
+            return $this->model->delete();
+        }
+
         return $this->model->destroy($id);
     }
 
